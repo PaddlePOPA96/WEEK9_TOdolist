@@ -4,14 +4,13 @@
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icontodo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-custom.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -20,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icontodo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.paddlepop.projectodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37c2f053-2ff6-41f2-8a44-7be17a840211"
+      }
     }
   }
 }
